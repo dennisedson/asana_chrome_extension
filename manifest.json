@@ -1,37 +1,30 @@
 {
-  // Required
   "manifest_version": 3,
   "name": "The great asana modifier",
   "version": "0.1",
 
-  // Recommended
   "action": {
     "default_icon": {              
       "16": "images/icon16.png",   
       "24": "images/icon24.png",   
       "32": "images/icon32.png"    
-    },
-    "default_title": "Click Me", 
-    "default_popup": "popup.html"  
+    }
   },
   "default_locale": "en",
   "description": "Magically make the sidebar text actually render in a usable way",
-  "icons": {...},
+  "icons": {
+    "16": "/imgs/icon16.png",
+    "32": "/imgs/icon32.png",
+    "48": "/imgs/icon48.png",
+    "128": "/imgs/icon128.png"},
 
-  // Optional
-  "author": ...,
-  "automation": ...,
-  "background": {
-    // Required
-    "service_worker": "background.js",
-    // Optional
-    "type": ...
-  },
-  "chrome_settings_overrides": {...},
-  "chrome_url_overrides": {...},
-  "commands": {...},
+  "author": "Dennis Edson",
   "content_capabilities": ...,
-  "content_scripts": [{...}],
+  "content_scripts": [{
+    "matches": ["https://app.asana.com/*"],
+    "css": ["/styles/main.css"],
+    "js": ["/scripts/main.js"]
+  }],
   "content_security_policy": {...},
   "converted_from_user_script": ...,
   "cross_origin_embedder_policy": {"value": "require-corp"},
