@@ -1,0 +1,15 @@
+/* expand the sidebar */
+.AsanaMain-sidebar {
+    width: 25%
+}
+
+/* remove the clipping and add padding between titles */
+.SidebarTeamMembershipHeader-teamName {
+    text-overflow: unset;
+    white-space: unset;
+}
+
+.DropTargetRow:not(.DropTargetRow--inSpreadsheetGrid) {
+    margin-bottom: 0;
+    padding: 1px 0;
+}
