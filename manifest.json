@@ -9,13 +9,12 @@
       "32": "images/icon32.png"
     }
   },
-  "default_locale": "en",
   "description": "Magically make the sidebar text actually render in a usable way",
   "icons": {
-    "16": "/imgs/icon16.png",
-    "32": "/imgs/icon32.png",
-    "48": "/imgs/icon48.png",
-    "128": "/imgs/icon128.png"
+    "16": "/imgs/chicken16.png",
+    "32": "/imgs/chicken32.png",
+    "48": "/imgs/chicken48.png",
+    "128": "/imgs/chicken128.png"
   },
   "author": "Dennis Edson",
   "content_scripts": [
