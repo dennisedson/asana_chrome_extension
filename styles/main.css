@@ -4,11 +4,11 @@
 }
 
 /* remove the clipping and add padding between titles */
-#asana_sidebar .SidebarTeamMembershipHeader-teamName, .SidebarItemRow-name {
+#asana_sidebar .SidebarTeamMembershipHeader-teamName, #asana_sidebar .SidebarItemRow-name {
     text-overflow: unset;
     white-space: unset;
 }
-.SidebarItemRow-name{
+#asana_sidebar .SidebarItemRow-name{
     line-height: 120%;
 }
 #asana_sidebar .DropTargetRow:not(.DropTargetRow--inSpreadsheetGrid) {
