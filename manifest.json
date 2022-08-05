@@ -4,9 +4,9 @@
   "version": "0.1.2",
   "action": {
     "default_icon": {
-      "16": "images/chicken16.png",
-      "24": "images/chicken24.png",
-      "32": "images/chicken32.png"
+      "16": "imgs/chicken16.png",
+      "24": "imgs/chicken24.png",
+      "32": "imgs/chicken32.png"
     }
   },
   "description": "Magically make the sidebar text actually render in a usable way",
