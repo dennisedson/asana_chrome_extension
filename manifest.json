@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "The great asana modifier",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "action": {
     "default_icon": {
       "16": "imgs/chicken16.png",
