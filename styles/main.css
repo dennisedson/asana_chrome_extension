@@ -1,5 +1,5 @@
 /* expand the sidebar */
-#asana_sidebar.AsanaMain-sidebar {
+.AsanaMain-sidebar:not(.AsanaMain-sidebar--isCollapsed) {
     width: 25%
 }
 
