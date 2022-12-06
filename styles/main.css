@@ -1,5 +1,5 @@
 /* expand the sidebar */
-.AsanaMain-sidebar:not(.AsanaMain-sidebar--isCollapsed) {
+.AsanaMain-sidebar:not(.AsanaMain-sidebar--isCollapsed), .AsanaMain-sidebarResizableContainer:not(.SidebarResizableContainer--hidden) {
     width: 25%
 }
 
@@ -14,4 +14,11 @@
 #asana_sidebar .DropTargetRow:not(.DropTargetRow--inSpreadsheetGrid) {
     margin-bottom: 0;
     padding: 1px 0;
+}
+.DragContainer .SidebarTeamMembershipHeader {
+    margin: 5px 0;
+    height: auto;
+}
+#asana_sidebar .SidebarItemRow{
+    height: max-content;
 }
